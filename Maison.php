@@ -2,11 +2,11 @@
 
 class Maison {
     private string $nom;
-    private int $longueur;
-    private int $largeur;
+    private float $longueur;
+    private float $largeur;
     private int $nbrEtage;
 
-    public function __construct(string $name, int $long, int $larg, int $niveau){
+    public function __construct(string $name, float $long, float $larg, int $niveau){
         $this->nom=$name;
         $this->longueur=$long;
         $this->largeur=$larg;
